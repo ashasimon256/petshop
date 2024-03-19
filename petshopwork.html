@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+<head>
+
+
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pet-shop</title>
+    <style>
+
+
+
+        body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .container {
+    max-width: 800px;
+    width: 100%;
+    margin: auto;
+  }
+  img {
+    max-width: 100%;
+    height: auto;}
+
+        body {
+            background-color: black;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        a {
+            color: white;
+            padding: 45px;
+        column-gap: 25px;
+            gap: 100%;
+            
+        }
+
+        section {
+            display: flex;
+            flex-direction: column;
+            margin: none;
+            background-color: black;
+            color: white;
+            justify-content: center;
+            align-items: center;
+            height: 600px;
+
+        }
+
+        .petshop {
+            background-image: url(cat.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            object-fit: cover;
+            background-color: coral;
+
+        }
+
+        .petshop h1 {
+            font-size: 80px;
+            color: orange;
+            margin-bottom: 1px;
+
+        }
+
+        .petshop button {
+            width: 300px;
+        }
+
+        .petshop p {
+            font-weight: lighter;
+        }
+
+        #pets {
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+        
+
+        }
+
+      #pets  .animals {
+
+            width: 25%;
+            border: 1px solid orange;
+            height: 560px;
+            border-radius: 10px;
+            
+        }
+
+
+        button {
+            background-color: orange;
+            border: none;
+            border-radius: 10px;
+            width: 90px;
+            height: 30px;
+            margin: 5px;
+        }
+        .headings{
+
+            color: orange;
+            background-color: black;
+            text-align: center;
+
+        }
+
+        .About {
+            padding: auto 10px;
+            background-color: black;
+        }
+
+        .About h2 {
+            color: orange;
+        }
+
+    
+        .About p {
+            font-size: 25px;
+            padding: 0 250px;
+        }
+
+        img {
+            height: 210px;
+            width: 100%;
+            object-fit: cover;
+        }
+
+        #last {
+            background-image: url(last\ buniies.jpeg);
+            background-size: cover ;
+        }
+
+    
+
+        .west {
+            background-color: black;
+            margin: 5px;
+            padding:  30px 0px 0px;
+
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <html>
+
+<!-- nav.. -->
+<div style="margin:  0px 300px 0px; ">
+    <nav>
+        <a href="">Home</a>
+        <a href="">About</a>
+        <a href="">Gallery</a>
+        <a href="">Reviews</a>
+        <a href="">Contacts</a>
+    </nav></div>
+
+    <!-- pet ... -->
+    <section class="petshop">
+        <h1>PETSHOP</h1>
+        <p>let's travel with us we will start a new adventure together with </p>
+        <p> full of happiness and laughs </p>
+        <button style="width: 250px;
+        height: 80px;" type="viewpets">
+            <h2>View More Pets</h2>
+        </button>
+    </section>
+
+    <!-- about ... -->
+    <section class="About">
+        <h2>About Us</h2>
+        <p>We are a family-owned and operated pet shop dedicated to providing
+            exceptional service and prodeucts to our community.
+            Our staff is passionate about animals and is always happy to help
+            you find the perfect item for your furry friend. </p>
+        <p>Our friendly stuff of animal enthusiastrs isn't just knowledgable, they're true
+            pet whisperers.wether you're a seasoned pet parent
+            or a nervous first-time
+            fur-ocious gaurdian,they'll navigate you through our extensive selection with
+            genuine care and expert advice
+        </p>
+    </section>
+    
+    <!--  pets ... -->
+
+    <h1 class="headings"> Choose a Companion that suites you</h1>
+    <section id="pets">
+        <div class="Dogs animals">
+            <img src="dog (2).jpeg" alt="dog">
+            <div class="west">
+                <h1>Dogs</h1>
+                <p>Tails wagging,hearts<br>
+                    winning! this playful pup is <br>
+                    always up for an<br>adventure.find the perfect <br> food
+                    ,toys, and treats to keep them happy and <br>healthy,
+                </p>
+                <div style="padding: 55px 0px 0px; ">
+                    <button>Read More</button></div>
+            </div>
+        </div>
+
+        <div class="cats animals">
+            <img src="cat2.jpeg" alt="cat">
+
+            <div class="west">
+                <h1>Cats</h1>
+                <p>Independent yet cuddly,this <br>regal feline purrfers the finer <br>
+                    things in life. discover <br>
+                    luxurious treats, scratching <br>
+                    posts, and cozy beds to <br> pamper your purrfect pal</p>
+                <div style="padding: 70px 0px 0px; ">
+                    <button>Read More</button></div>
+            </div>
+        </div>
+
+        <div class="horses animals">
+            <img src="horse.jpeg" alt="">
+            <div class="west">
+                <h1>Horses</h1>
+                <p>Strong ,spirited, and <br>loyal,this noble creature <br>
+                    deserves the best. explore <br>our selection of premium <br>feed,comfortable
+                    tack, and <br> grooming supplies to keep your equine partner thriving</p>
+                <div style="padding: 55px 0px 0px; ">
+                    <button>Read More</button></div>
+            </div>
+        </div>
+
+        <div class="bunnies animals">
+            <img src="bunnies.jpeg" alt="">
+            <div class="west">
+                <h1>Bunnies</h1>
+                <p>happy hearts and joyful <br>
+                    leaps! this energetic <br>fluffball brings endless <br>
+                    fun.Stock up on <br>hay,pellets,and enrichment <br>
+                    toys to keep your bunny <br>
+                    hopping for happines</p>
+                    <div style="padding: 55px 0px 0px;">
+                <button>Read More</button></div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="last">
+        <h1>Subscribe to our newsletter</h1>
+        <p>Get the latest updates on our flower collections</p>
+
+
+        <div>
+               <input style="height: 60px; width: 300px; border-radius: 10px; " type="text" id="email" name="email" placeholder="Enter Email Adress" 
+            >
+ <input style="height: 60px; width: 160px; background-color: orange; border-radius: 10px;" type="submit">
+        </div>
+
+    </section></html>
+</body>
+
+</html>
